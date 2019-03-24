@@ -21,8 +21,8 @@ body, html {
      -moz-border-radius: 50%;
      /* Para exibir nos outros navegadores como Chrome, safari, opera */
     -webkit-border-radius: 50%; 
-    max-width:320px;
-    max-height:240px;
+    max-width:350px;
+    max-height:350px;
     width: auto;
     height: auto;
 } 
