@@ -21,14 +21,14 @@ body, html {
      -moz-border-radius: 50%;
      /* Para exibir nos outros navegadores como Chrome, safari, opera */
     -webkit-border-radius: 50%; 
-    max-width:350px;
-    max-height:350px;
+    max-width:300px;
+    max-height:300px;
     width: auto;
     height: auto;
 } 
 
 p {
-    font-size: 23px;
+    font-size: 20px;
     margin-top: 150px;
     color: white;
 }

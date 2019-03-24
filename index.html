@@ -23,11 +23,27 @@
     <body ng-app="myApp">
         <div class="header">
             <img id="picture" src ="img/eiffel-tower.jpg" alt="picture of the Eiffel Tower in Paris">
-            <p><strong>Paris</strong>, cidade localizada no centro da região de Île-de-France,<br>
+            <p><strong>Paris</strong>, cidade localizada no centro da região de <i>Île-de-France</i>,<br>
                 é mundialmente conhecida como a capital da moda e da culinária.<br>Tem uma população de
                 mais de 2.200.000 habitantes e possui um <br>clima predominantemente temperado, com estações 
                 bem definidas.
             </p>
         </div>
+
+        <div class="main" ng-controller="MainController">
+            <div class="container">
+                <div ng-repeat="image in images">
+                    <div class="thumbnail">
+                        <img ng-src="{{image.cover}}">
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+         <!-- Modules -->
+        <script src="js/app.js"></script>
+
+        <!-- Controllers -->
+        <script src="js/controllers/MainController.js"></script>
     </body>
 </html>
