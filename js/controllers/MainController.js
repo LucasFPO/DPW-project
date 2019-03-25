@@ -2,12 +2,18 @@
 // manages the app's data. 
 app.controller('MainController', ['$scope', function($scope) { 
     $scope.images = [ { 
-        cover: 'img/louvre-image.jpg' },
+        id: 1,
+        cover: 'img/louvre-image.jpg',
+        information: 'Tell me Louvre' },
     {
-        cover: 'img/arco-do-triunfo.jpg' },
+        id: 2,
+        cover: 'img/arco-do-triunfo.jpg',
+        information: 'tudo sobre o Arco do Triunfo' },
     {
+        id: 3,
         cover: 'img/cathedral.jpg' },
     {
-        cover: 'img/rio-sena.jpg' }
+        id: 4,
+        cover: 'img/rio-sena.jpg' },
     ];
 }]);

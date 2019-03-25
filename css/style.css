@@ -37,6 +37,7 @@ p {
 .main{
     margin-top: 200px;
     display: flex;
+    /*responsividade*/
     flex-wrap:wrap;
 }
 .main img {
@@ -44,4 +45,14 @@ p {
     height:280px;
     cursor: pointer;
     border: solid black 2px;
+}
+
+/* Zooming Effect */
+/* A focus style is good for accessibility */
+.hovering:hover, .hovering:focus {
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
 }

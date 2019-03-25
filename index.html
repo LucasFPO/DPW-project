@@ -32,7 +32,10 @@
 
         <div class="main" ng-controller="MainController">
             <div ng-repeat="image in images">
-                <img ng-src="{{image.cover}}">
+                <div class="hovering" ng-mouseup="">    
+                    <img ng-src="{{image.cover}}">
+                </div>    
+                <!--<p class="information">{{image.information}}</p> -->
             </div>
         </div>
     
