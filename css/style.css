@@ -28,11 +28,13 @@ body, html {
     height: auto;
 } 
 
+/* Texto na regiao do HEADER */
 p {
     font-size: 20px;
     margin-top: 150px;
     color: white;
 }
+
 
 .main{
     margin-top: 200px;
@@ -47,6 +49,9 @@ p {
     cursor: pointer;
 }
 
+.hiddentext{
+    color: white; /*PARA APARECER O TEXTO*/
+}
 
 /* Implementando o Zoom Effect */
 * {
